@@ -1,6 +1,6 @@
  -name: copy
    host: web
-   become: yes
+   become:  yes
    tasks:
      - name:  copy war file to Tomcat
        copy:
